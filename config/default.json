@@ -1,5 +1,6 @@
 {
   "port": 5000,
-  "requestFromDomain": "http://localhost:63342",
+  "clientPort": 3000,
+  "requestFromDomain": "http://localhost:3000",
   "mongoUri": "mongodb+srv://test:1111@cluster0-vhabj.mongodb.net/mosaic?retryWrites=true&w=majority"
 }

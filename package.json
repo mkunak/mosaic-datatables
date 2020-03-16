@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js"
+    "server": "nodemon app.js",
+    "dev": "concurrently \"npm run server\" \"nodemon client-server.js\""
   },
   "author": "Mykola Kunak <kunak.n@gmail.com>",
   "license": "ISC",
